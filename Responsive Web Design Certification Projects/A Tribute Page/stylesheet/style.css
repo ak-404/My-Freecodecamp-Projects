@@ -1,1 +1,118 @@
 
+:root {
+  --background-color: #192841;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #192841;
+  background-color: var(--background-color, #192841);
+  color: #00feca;
+  font-family: 'Reggae One',cursive;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 5% 2%;
+  padding: 5% 0;
+  border: 2px solid #192841;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.4),
+        inset -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
+#header-info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2% auto;
+  padding: 1% auto;
+  align-items: center;
+}
+#title {
+  color: #cfaa01;
+  font-size: 4.8vw;
+  padding-bottom: 1%;
+  letter-spacing: 0.5vw;
+  font-family: 'Righteous', cursive;
+}
+#header-info p {
+  color: #08f7fe;
+  font-size: 3.5vw;
+  padding-bottom: 1%;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
+  margin-bottom: 5%;
+  border: 2px solid #192841;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.4),
+        inset -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
+#image {
+  max-width: 90%;
+  height: auto;
+  margin: 10% 2% 5%;
+  border-radius: 10px;
+}
+#img-caption {
+  color: #09f7fe;
+  font-size: 3.5vw;
+  margin-bottom: 5%;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+#tribute-info h3 {
+  color: #cfaa01;
+  font-size: 4.5vw;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 1vw;
+  margin-bottom: 5%;
+}
+#tribute-info ul {
+  padding: 0 10%;
+  line-height: 8vw;
+  list-style: none;
+}
+#tribute-info ul li {
+  font-size: 4vw;
+}
+strong {
+  color: #ff9472;
+}
+#quote {
+  color: #fdf200;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 5% 0;
+  font-size: 4vw;
+  align-items: flex-start;
+  line-height: 8vw;
+}
+#tribute-link {
+  width: 80%;
+  padding: 2% 0;
+  font-size: 3.5vw;
+  line-height: 5vw;
+}
+a, a:active{
+  color: #ebf875;
+}
+a:hover {
+  color: white;
+}
